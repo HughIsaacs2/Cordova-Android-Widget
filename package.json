@@ -1,0 +1,29 @@
+{
+    "version": "0.0.1",
+    "name": "com.hughisaacs2.cordova.plugins.androidwidgetplugin",
+    "cordova_name": "AndroidWidgetPlugin",
+    "description": "Cordova Android Widget Plugin",
+    "platforms": [
+        "android"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0.0"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HughIsaacs2/Cordova-Android-Widget.git"
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova-android"
+    ],
+  "author": "Hugh Isaacs II",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HughIsaacs2/Cordova-Android-Widget/issues"
+  },
+  "homepage": "https://github.com/HughIsaacs2/Cordova-Android-Widget"
+}
