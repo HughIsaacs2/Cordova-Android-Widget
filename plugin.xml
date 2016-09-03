@@ -19,7 +19,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
   <platform name="android">
 	
 	<config-file target="AndroidManifest.xml" parent="/manifest/application">
-		<receiver android:label="List" android:name=".ListWidgetProvider">
+		<receiver android:label="List" android:name="com.hughisaacs2.cordova.plugins.androidwidgetplugin.ListWidgetProvider">
 		  <intent-filter>
 		    <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
 		  </intent-filter>
