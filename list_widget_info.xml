@@ -6,6 +6,5 @@
   android:updatePeriodMillis="3600000"
   android:previewImage="@drawable/icon"
   android:initialLayout="@layout/list_widget_layout"
-  android:resizeMode="horizontal|vertical"
-  android:widgetCategory="both">
+  android:resizeMode="horizontal|vertical">
 </appwidget-provider>
