@@ -28,7 +28,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 		<service android:exported="false" android:name="run.ace.AppWidgetService" android:permission="android.permission.BIND_REMOTEVIEWS" />
     </config-file>
 
-<source-file src="ListWidgetProvider.java" target-dir="src/com/acrylicstyle/asmg" />
+<source-file src="ListWidgetProvider.java" target-dir="src/com/hughisaacs2/cordova/plugins/androidwidgetplugin" />
 <source-file src="list_widget_info.xml" target-dir="res/xml" />
 <source-file src="list_widget_layout.xml" target-dir="res/layout" />
 <source-file src="17/list_widget_layout.xml" target-dir="res/layout-v17" />

@@ -1,4 +1,4 @@
-package com.acrylicstyle.asmg;
+package com.hughisaacs2.cordova.plugins.androidwidgetplugin;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
