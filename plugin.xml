@@ -31,6 +31,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 <source-file src="ListWidgetProvider.java" target-dir="src/com/acrylicstyle/asmg" />
 <source-file src="list_widget_info.xml" target-dir="res/xml" />
 <source-file src="list_widget_layout.xml" target-dir="res/layout" />
+<source-file src="17/list_widget_layout.xml" target-dir="res/layout-v17" />
 <source-file src="list_widget_view.xml" target-dir="res/layout" />
 
   </platform>
