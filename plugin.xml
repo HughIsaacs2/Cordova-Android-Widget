@@ -19,7 +19,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
   <platform name="android">
 	
 	<config-file target="AndroidManifest.xml" parent="/manifest/application">
-		<receiver android:label="List" android:name="com.acrylicstyle.asmg.ListWidgetProvider">
+		<receiver android:label="List" android:name=".ListWidgetProvider">
 		  <intent-filter>
 		    <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
 		  </intent-filter>
@@ -27,6 +27,11 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 		</receiver>
 		<service android:exported="false" android:name="run.ace.AppWidgetService" android:permission="android.permission.BIND_REMOTEVIEWS" />
     </config-file>
+
+<source-file src="ListWidgetProvider.java" target-dir="src/com/acrylicstyle/asmg" />
+<source-file src="list_widget_info.xml" target-dir="res/xml" />
+<source-file src="list_widget_layout.xml" target-dir="res/layout" />
+<source-file src="list_widget_view.xml" target-dir="res/layout" />
 
   </platform>
 

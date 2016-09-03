@@ -1,5 +1,10 @@
 package com.acrylicstyle.asmg;
 
+import android.appwidget.AppWidgetManager;
+import android.appwidget.AppWidgetProvider;
+import android.content.Context;
+import android.widget.RemoteViews;
+
 public class ListWidgetProvider extends run.ace.AppWidgetProvider {
   @Override protected int getLayoutResourceId(android.content.Context context) {
     return run.ace.NativeHost.getResourceId("list_widget_layout", "layout", context);
